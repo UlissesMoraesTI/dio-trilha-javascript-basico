@@ -8,10 +8,10 @@ Você terá 3 variáveis:
 */
 
 const precoCombustivel = 5.79;
-const kmPorLitro = 10;
-const distanciaEmKm = 100;
+const kmPorLitro = 12;
+const distanciaEmKm = 1580;
 
 const litrosComsumidos = distanciaEmKm / kmPorLitro;
 const valorGasto = litrosComsumidos * precoCombustivel;
 
-console.log(valorGasto);
+console.log(valorGasto.toFixed(2));

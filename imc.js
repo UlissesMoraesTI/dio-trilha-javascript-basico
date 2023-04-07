@@ -8,6 +8,8 @@
  *  > 25.0 && <= 30.0 = Acima do Peso;
  *  > 30.0 && <= 40.0 = Obeso;
  *  > 40.0            = Obsesidade Grave;   * 
+ * 
+ *  Técnico: Confira também o cálculo com o uso do Math.pow
  */
 
 const peso = 93;

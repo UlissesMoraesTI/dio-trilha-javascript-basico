@@ -1,4 +1,4 @@
-class pessoa {
+class Pessoa {
     nome;
     idade;
 

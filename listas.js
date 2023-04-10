@@ -7,7 +7,7 @@
 let notas = [];
 let somarNotas = 0;
 /**
- * Comando push
+ * Comando push - Adicionar na Lista
  */
 notas.push(5);
 notas.push(7);

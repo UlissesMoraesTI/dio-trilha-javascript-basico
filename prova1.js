@@ -1,15 +1,3 @@
-class Pessoa {
-    nome;
-    idade;
-
-    constructor(nome, idade) {
-        this.nome = nome;
-        this.idade = idade;
-    }
-
-    descrever() {
-        console.log(`Nome: ${this.nome}; Idade: ${this.idade};`);
-    }
-}
-
-new Pessoa('Renan', 30).descrever();
+const listaDeValores = [1, 2, 3, 4, 5];
+const valor = listaDeValores[2];
+console.log(valor);
